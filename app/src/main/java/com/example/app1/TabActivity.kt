@@ -43,6 +43,8 @@ class TabActivity : ComponentActivity() {
 @Preview
 @Composable
 fun PrimaryTextTabs() {
+
+
     var state by remember {
         mutableStateOf(0)
     }

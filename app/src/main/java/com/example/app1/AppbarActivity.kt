@@ -49,6 +49,8 @@ class AppbarActivity : ComponentActivity() {
 @Preview
 @Composable
 fun SimpleTopAppBar() {
+
+
     Scaffold(topBar = {
         TopAppBar(title = {
             Text(

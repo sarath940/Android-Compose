@@ -44,6 +44,9 @@ import com.example.app1.ui.theme.App1Theme
 import kotlinx.coroutines.launch
 
 class DrawerActivity : ComponentActivity() {
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

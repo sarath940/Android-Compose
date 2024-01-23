@@ -55,6 +55,8 @@ class MenuActivity : ComponentActivity() {
 @Preview
 @Composable
 fun MenuSample() {
+
+
     var expanded by remember {
         mutableStateOf(false)
     }
